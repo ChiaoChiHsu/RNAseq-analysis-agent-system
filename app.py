@@ -34,9 +34,9 @@ AGENTS_MD_PATH = Path(__file__).parent.parent / "AGENTS.md"
 PREVIEW_LINES = 4
 
 DEFAULT_MODEL_CONFIG = {
-    "model": "gpt-oss:120b",
+    "model": "",
     "model_provider": "ollama",
-    "base_url": "http://192.168.81.7:11434",
+    "base_url": "",
 }
 
 # --- Local chat-history persistence (plain SQLite) --------------------------
