@@ -89,7 +89,7 @@ UI 會在 `(root_dir, output_dir, model/model_provider/base_url)` 任一項改�
 | `agent_key` | — | `(data_dir, output_dir, model_config)` 的指紋，`get_agent()` 用它判斷要不要重建 agent。 |
 
 
-## 已知限制 / 待注意事項
+## 目前已知限制 
 
-- **切換對話中途若中斷目前這輪回覆會直接壞掉**：不要在 agent 還在 streaming 回覆時切換 session 或重整頁面。
+- 切換對話中途若中斷目前這輪回覆，會收不到agent回傳訊息。
 - `output_dir` 目前必須跟 `data_dir` 不同資料夾。
