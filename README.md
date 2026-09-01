@@ -1,4 +1,4 @@
-# RNAseq Agent — Streamlit UI Handover
+# RNAseq Agent — Streamlit UI
 
 `app.py` 是一個聊天介面不含 agent 系統，只透過幾個固定的呼叫點跟「後端」溝通。這份文件說明它現在對接的介面長什麼樣、以及 UI 本身內部比較重要的幾塊邏輯。
 
